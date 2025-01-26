@@ -9,8 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        neon: {
+          cyan: "#00ffff",
+          pink: "#ff00ff",
+          purple: "#a020f0",
+        },
+      },
+      boxShadow: {
+        neon: "0 0 15px rgba(0, 255, 255, 0.5)",
       },
     },
   },
